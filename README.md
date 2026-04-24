@@ -17,7 +17,7 @@ Key Technical Implementations
 
 The 1:4 Speed Ratio: To bridge the requirement between the Car's 20 km/h steps and the Engine's 1 RPM increments, I implemented a SPEED_RATIO in the Speed Enum. The advice method uses a loop to "ramp" the engine speed up or down, providing a realistic simulation of acceleration.
 
-Hybrid State Transitions: The MixedHybridEngine acts as a state controller.
+Hybrid State Transitions: The HybridEngine acts as a state controller.
 
 Threshold Management: At 50 km/h, the system performs a hand-off.
 
